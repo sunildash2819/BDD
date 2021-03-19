@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExecutionSuite">
+	<test thread-count="10" name="AirAsiaTest">
+		<classes>
+			<class name="runner.AirAsiaRunner" />
+		</classes>
+	</test>
+	<test thread-count="10" name="AutomationPraacticeTest">
+		<classes>
+			<class name="runner.AutomationPracticeRunner" />
+		</classes>
+	</test>
+	<test thread-count="10" name="NewTourTravelsTest">
+		<classes>
+			<class name="runner.NewTourTravelRunner" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ExecutionSuite]">
+  <test thread-count="5" name="AirAsiaTest(failed)">
+    <classes>
+      <class name="runner.AirAsiaRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.AirAsiaRunner -->
+    </classes>
+  </test> <!-- AirAsiaTest(failed) -->
+  <test thread-count="5" name="NewTourTravelsTest(failed)">
+    <classes>
+      <class name="runner.NewTourTravelRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.NewTourTravelRunner -->
+    </classes>
+  </test> <!-- NewTourTravelsTest(failed) -->
+</suite> <!-- Failed suite [ExecutionSuite] -->
